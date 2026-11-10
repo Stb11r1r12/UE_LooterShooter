@@ -24,20 +24,7 @@ public class LooterShooter : ModuleRules
 		PrivateDependencyModuleNames.AddRange(new string[] { });
 
 		PublicIncludePaths.AddRange(new string[] {
-			"LooterShooter",
-			"LooterShooter/Variant_Platforming",
-			"LooterShooter/Variant_Platforming/Animation",
-			"LooterShooter/Variant_Combat",
-			"LooterShooter/Variant_Combat/AI",
-			"LooterShooter/Variant_Combat/Animation",
-			"LooterShooter/Variant_Combat/Gameplay",
-			"LooterShooter/Variant_Combat/Interfaces",
-			"LooterShooter/Variant_Combat/UI",
-			"LooterShooter/Variant_SideScrolling",
-			"LooterShooter/Variant_SideScrolling/AI",
-			"LooterShooter/Variant_SideScrolling/Gameplay",
-			"LooterShooter/Variant_SideScrolling/Interfaces",
-			"LooterShooter/Variant_SideScrolling/UI"
+			"LooterShooter"
 		});
 
 		// Uncomment if you are using Slate UI
