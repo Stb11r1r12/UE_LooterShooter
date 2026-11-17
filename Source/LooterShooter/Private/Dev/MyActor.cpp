@@ -25,3 +25,19 @@ void AMyActor::Tick(float DeltaTime)
 
 }
 
+float AMyActor::Foo2_Implementation()
+{
+	return 0.0f;
+}
+
+//float AMyActor::Foo1()
+//{
+//	return 0.0f;
+//}
+
+//float AMyActor::Foo2()
+//{
+//	return 0.0f;
+//}
+
+
