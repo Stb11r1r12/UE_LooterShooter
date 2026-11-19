@@ -10,14 +10,14 @@
     <Platform Name="Win64-arm64ec" />
   </Configurations>
   <Folder Name="/Engine/">
-    <Project Path="Intermediate/ProjectFiles/UE5.vcxproj" Id="2bd1dff5-58dd-3d4f-9547-4b4c7fd84408">
+    <Project Path="Intermediate/ProjectFiles/UE5.vcxproj" Id="57ed0d76-6394-3aab-a2a6-1870fbbb1531">
       <BuildType Project="BuiltWithUnrealBuildTool" />
       <Platform Project="Win64" />
       <Build Project="false" />
     </Project>
   </Folder>
   <Folder Name="/Games/">
-    <Project Path="Intermediate/ProjectFiles/LooterShooter.vcxproj" Id="93d62486-76d1-3741-ab57-0647ab439abb">
+    <Project Path="Intermediate/ProjectFiles/LooterShooter.vcxproj" Id="bc3c8105-4efa-3b42-8bff-3c361e7c27a3">
       <BuildType Solution="DebugGame Editor|Win64" Project="DebugGame_Editor" />
       <BuildType Solution="DebugGame Editor|Win64-arm64" Project="Win64_arm64_DebugGame_Editor" />
       <BuildType Solution="DebugGame Editor|Win64-arm64ec" Project="Win64_arm64ec_DebugGame_Editor" />

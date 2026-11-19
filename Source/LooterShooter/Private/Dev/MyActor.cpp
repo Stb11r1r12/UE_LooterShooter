@@ -7,7 +7,7 @@
 AMyActor::AMyActor()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = false;
+	PrimaryActorTick.bCanEverTick = true;
 
 }
 
@@ -22,22 +22,19 @@ void AMyActor::BeginPlay()
 void AMyActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	PrintActorData();
 }
 
-float AMyActor::Foo2_Implementation()
+
+float AMyActor::MSBuff_Implementation(float multiply)
 {
-	return 0.0f;
+	return movementSpeed * multiply;
 }
 
-//float AMyActor::Foo1()
-//{
-//	return 0.0f;
-//}
+float AMyActor::Buff(int buff, int debuff)
+{
+	return (float)baseDamage * buff / debuff;
+}
 
-//float AMyActor::Foo2()
-//{
-//	return 0.0f;
-//}
 
 
